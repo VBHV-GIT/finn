@@ -1,0 +1,29 @@
+{
+"compilerOptions": {
+"tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+"target": "ES2023",
+"useDefineForClassFields": true,
+"lib": ["ES2023", "DOM", "DOM.Iterable"],
+
+"module": "ESNext",
+"moduleResolution": "node", 
+
+"types": ["vite/client"],
+"skipLibCheck": true,
+"esModuleInterop": true,
+
+/* JSX */
+"jsx": "react-jsx",
+
+/* Output */
+"noEmit": true,
+
+/* Linting (relaxed for stability) */
+"strict": false,
+"noUnusedLocals": false,
+"noUnusedParameters": false,
+"noFallthroughCasesInSwitch": true
+
+},
+"include": ["src"]
+}
